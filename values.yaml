@@ -1,0 +1,14 @@
+prometheus-pushgateway:
+  enabled: false
+
+prometheus-node-exporter:
+  enabled: false
+
+alertmanager:
+  enabled: false
+
+prometheus-server:
+  enabled: true
+
+prometheus-kube-state-metrics:
+  enabled: true
